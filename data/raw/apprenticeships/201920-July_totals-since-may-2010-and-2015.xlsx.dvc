@@ -1,0 +1,10 @@
+md5: 1eddcc6655571b32aca32e4219b08edc
+frozen: true
+deps:
+- checksum: '"5f088fe9-43023"'
+  size: 274467
+  path: https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/899753/201920-July_totals-since-may-2010-and-2015.xlsx
+outs:
+- md5: 7e96b2523bc587486306bfe691b38c3a
+  size: 274467
+  path: 201920-July_totals-since-may-2010-and-2015.xlsx

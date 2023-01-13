@@ -1,0 +1,7 @@
+# Ignore everything in here
+/**/**
+
+# Apart from...
+!/**/
+!.gitignore
+!*.dvc

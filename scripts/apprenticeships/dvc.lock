@@ -1,0 +1,15 @@
+schema: '2.0'
+stages:
+  prepare:
+    cmd: python scripts/apprenticeships/
+    deps:
+    - path: data/raw/apprenticeships/201920-July_totals-since-may-2010-and-2015.xlsx
+      md5: 7e96b2523bc587486306bfe691b38c3a
+      size: 274467
+    - path: scripts/apprenticeships/__main__.py
+      md5: 9cfcaab35998184ca2ceae4066e1ff5d
+      size: 738
+    outs:
+    - path: data/working/apprenticeships/historical.csv
+      md5: e6e8ed2cd83a644345708a7dbb94fdd0
+      size: 48680

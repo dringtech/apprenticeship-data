@@ -1,0 +1,10 @@
+stages:
+  prepare:
+    cmd: python scripts/apprenticeships/
+    wdir: ../..
+    deps:
+      - scripts/apprenticeships/__main__.py
+      - data/raw/apprenticeships/201920-July_totals-since-may-2010-and-2015.xlsx
+    outs:
+      - data/working/apprenticeships/historical.csv:
+          cache: False
